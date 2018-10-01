@@ -1,0 +1,32 @@
+[debug] [2018-10-01T10:26:25.687Z] ----------------------------------------------------------------------
+[debug] [2018-10-01T10:26:25.689Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2018-10-01T10:26:25.690Z] CLI Version:   3.18.4
+[debug] [2018-10-01T10:26:25.690Z] Platform:      linux
+[debug] [2018-10-01T10:26:25.690Z] Node Version:  v6.14.3
+[debug] [2018-10-01T10:26:25.690Z] Time:          Mon Oct 01 2018 11:26:25 GMT+0100 (BST)
+[debug] [2018-10-01T10:26:25.690Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-01T10:26:25.699Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-01T10:26:25.699Z] > authorizing via signed-in user
+[debug] [2018-10-01T10:26:25.702Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/squarish-paper  
+  
+ Mon Oct 01 2018 11:26:25 GMT+0100 (BST)
+[debug] [2018-10-01T10:26:26.641Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-01T10:26:26.643Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/squarish-paper/tokens  
+  
+ Mon Oct 01 2018 11:26:26 GMT+0100 (BST)
+[debug] [2018-10-01T10:26:27.614Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-01T10:26:27.616Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/squarish-paper  
+  
+ Mon Oct 01 2018 11:26:27 GMT+0100 (BST)
+[debug] [2018-10-01T10:26:28.576Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/mstar/hub/squarish-paper'...
+[info] 
+[debug] [2018-10-01T10:26:28.581Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/791548363583/clients/_:getWebAppConfig  
+  
+ Mon Oct 01 2018 11:26:28 GMT+0100 (BST)
+[debug] [2018-10-01T10:26:29.079Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
