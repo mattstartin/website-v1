@@ -6,7 +6,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,8 +25,14 @@ body, html {
     min-height: 400px;
 }
 
-/* Third image (Contact) */
+/* Third image (Photography) */
 .bgimg-3 {
+    background-image: url("/images/cliffs.jpg");
+    min-height: 400px;
+}
+
+/* Fourth image (Contact) */
+.bgimg-4 {
     background-image: url("/images/puttsborough.jpg");
     min-height: 400px;
 }
@@ -36,7 +42,7 @@ body, html {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
         min-height: 400px;
     }
