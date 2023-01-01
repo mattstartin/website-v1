@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#D5D5D5">
+</head>
+<title>squarish-paper: Carving out a piece of the internet</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/index.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113886890-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-113886890-2');
+</script>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#photography" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-camera-retro"></i> PHOTOGRAPHY</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#photography" class="w3-bar-item w3-button" onclick="toggleFunction()">PHOTOGRAPHY</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">squarish-paper</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT</h3>
+  <p class="w3-center"><em>Carving you out a piece of the Internet</em></p>
+  <p>Hello! You want a website, but don't know where to start? That's cool, hopefully I can help.</p>
+  <p>Here at squarish paper we put you in the driving seat. Whether you want a multipage ecommerce site for your business, a redesign for your current site or a one page website with pictures of your dog we can build it for you. Everything we do is <b>custom</b> to you - no "generic" websites here!</p>
+  <p>It's worth taking a look at some <a href="#portfolio">examples</a> of my work, and getting in <a href="#contact">touch</a> with me</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-hide-small w3-padding-large">
+      <img src="/images/coffee_small.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Coffee" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-padding-large">
+      <p>Here some things I could do for you:</p>
+      <i class="fa fa-desktop"></i> Create a custom site just for you<br />
+      <i class="fa fa-server"></i> Hosting<br />
+      <i class="fa fa-pencil-alt"></i> Full site redesign<br />
+      <i class="fa fa-chart-line"></i> Web Analytics
+      <p>Here some things I struggle with</p>
+      <i class="fa fa-bowling-ball"></i> Bowling <br />
+      <i class="fa fa-cookie-bite"></i> Resisting Biscuits
+
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">How I rate myself:</p>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-walking"></i>Running</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-gem"></i>Bank Heists</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:5%">5%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">8+</span><br>
+    Years Experience
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">2</span><br>
+    Degrees
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">12+</span><br>
+    Languages Used
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">3+</span><br>
+    Esspressos /day
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">WEBSITES</h3>
+  <p class="w3-center"><em>Here are some examples of my latest work.</em></p><br>
+
+
+  <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+    <div class="w3-third w3-margin-bottom">
+      <img src="/images/trove_small.jpg" alt="trove.co.uk" style="height:100%; width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Trove</b></p>
+        <p class="w3-opacity">Handmade Jewellery</p>
+        <p>Site to showcase artisan handmade seaglass jewellery</p>
+      </div>
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="/images/segmented_small.jpg" alt="strava-segmented.co.uk" style="height:100%; width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Segmented</b></p>
+        <p class="w3-opacity">Strava Segmented</p>
+        <p>Playpen for Strava APIs to show segment data</p>
+      </div>
+    </div>
+    <div class="w3-third w3-hide-small w3-margin-bottom">
+      <img src="/images/slipway_small.jpg" alt="squarish-paper.co.uk" style=" height:100%; width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>squarish-paper</b></p>
+        <p class="w3-opacity">This Website!</p>
+        <p>Exactly what you're looking at right now</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PHOTOGRAPHY</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="photography">
+  <h3 class="w3-center">MY PICTURES</h3>
+  <p class="w3-center"><em>Photography is a hobby of mine. Here are some of my favourite pictures.<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="/images/photography/bruges_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Vismarkt, Bruges">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/images/photography/boat_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Boat at sunset in Thailand">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/images/photography/croyde_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Croyde Cliffs at dusk">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/images/photography/pebbles_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Abbotsham Pebbles">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="/images/photography/flower_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Flower at Docton Mill">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/images/photography/horse_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Horse in New Forest">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/images/photography/arch_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Arch near Hartland">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/images/photography/eiffel_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Eiffel Tower">
+    </div>
+  </div>
+    <!-- 3rd row hidden on small devices -->
+    <div class="w3-row-padding w3-hide-small w3-center">
+      <div class="w3-col m3">
+        <img src="/images/photography/path_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="South West Coastal Path, near Fremington">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="/images/photography/gnome_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Gnome at the Gnome Sanctuary">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="/images/photography/sea_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sea near Lee">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="/images/photography/street_small.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bruges Street">
+      </div>
+    </div>
+
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Fourth Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <p class="w3-center">Want a chat? Any questions about me? Suggestions on the site? Comments about my photos? Drop me a line!</p>
+
+  <div class="w3-col m6 w3-center w3-padding-large">
+    <img src="/images/me_small.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+  </div>
+
+  <!-- Hide this text on small devices -->
+  <div class="w3-col m6  w3-center w3-padding-large">
+    <div class="w3-large w3-margin-bottom">
+      <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Exeter, UK<br>
+      <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: hello@squarishpaper.co.uk<br>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+    <div class="w3-xlarge w3-section">
+      <a href="https://www.facebook.com/m.j.startin" target="_blank"><i class="fab fa-facebook-square w3-hover-opacity"></i></a>
+      <a href="https://www.twitter.com/mj_startin" target="_blank"><i class="fab fa-twitter-square w3-hover-opacity"></i></a>
+      <a href="https://www.linkedin.com/in/matthew-startin" target="_blank"><i class="fab fa-linkedin w3-hover-opacity"></i></a>
+      <a href="https://www.strava.com/athletes/15535211" target="_blank"><i class="fab fa-strava w3-hover-opacity"></i></a>
+    </div>
+
+
+</footer>
+
+<script src="/js/index.js"></script>
+</html>
