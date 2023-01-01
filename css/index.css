@@ -15,25 +15,26 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('/images/slipway2.JPG');
+    background-image: url('../images/slipway2.JPG');
+    
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("/images/pebbles2.jpg");
+    background-image: url("../images/pebbles2.jpg");
     min-height: 400px;
 }
 
 /* Third image (Photography) */
 .bgimg-3 {
-    background-image: url("/images/cliffs.jpg");
+    background-image: url("../images/cliffs.jpg");
     min-height: 400px;
 }
 
 /* Fourth image (Contact) */
 .bgimg-4 {
-    background-image: url("/images/puttsborough.jpg");
+    background-image: url("../images/puttsborough.jpg");
     min-height: 400px;
 }
 
